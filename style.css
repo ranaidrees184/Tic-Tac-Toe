@@ -1,0 +1,50 @@
+.body{
+    height:100vh;
+    width:100vw;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+.name{
+    height:40px;
+    width:200px;
+    padding:0px;
+    margin:0 0 10px 0;
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.grid-container{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.box{
+    height:70px;
+    width:70px;
+    display:grid;
+    border:2px solid black;
+    text-align: center;
+    padding:15px;
+    font-size: 50px;
+    font-weight: 900;
+    /* float:left; */
+}
+
+.player{
+    height:40px;
+    width:80px;
+    padding:02px;
+    margin:02px;
+    text-align:center;
+
+}
+
+.reset{
+    border:3px solid black;
+    height:40px;
+    width:80px;
+    padding:02px;
+    margin:0px;
+    border-radius:10px;
+}
